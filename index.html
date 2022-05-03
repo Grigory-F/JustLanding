@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- SEO -->
+        <meta name="google" content="notranslate" />
+        <meta name="robots" content="index,follow" />
+        <meta name="description" content="Page description" />
+        <link rel="canonical" href="https://www.mywebsite.com/page" />
+        <!-- Messenger's snippets -->
+        <meta property="og:title" content="Unique page title - My Site" />
+        <meta property="og:description" content="Page description" />
+        <meta property="og:image" content="https://www.mywebsite.com/image.jpg" />
+        <meta property="og:image:alt" content="Image description" />
+        <meta property="og:locale" content="ru_RU" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://www.mywebsite.com/page" />
+        <!-- Favicons -->
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/my.webmanifest" />
+        <!-- Style browser tab -->
+        <meta name="theme-color" content="#FF00FF" />
+        <!-- Style -->
+        <link rel="stylesheet" href="css/app.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+        <title></title>
+    </head>
+    <body class="page">
+         <div class="modal" tabindex="-1" id="exampleModal">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <form class="modal-content">
+                    <div class="modal-header">
+                        <p class="m-0 fs-3">Оставьте свои контакты для связи с нами и мы свяжемся с вами в ближайшее время</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <label> Имя
+                                <input class="d-block" type="text" placeholder="Имя">
+                            </label>
+                            <label> Телефон
+                                <input class="d-block" type="text" placeholder="Телефон">
+                            </label>
+                            <p class="text-muted">*Ваши данные не будут переданы третьим лицам</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-primary btn-lg text-white">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section class="container-bg first-screen">
+            <picture>
+                <source type="image/avif" srcset="img/first-page-bg.avif" />
+                <source type="image/webp" srcset="img/first-page-bg.webp" />
+                <img class="bg-image" src="img/first-page-bg.png" alt="" />
+            </picture>
+            <div class="container min-vh-100 mt-2 text-white" style="position: relative; z-index: 200">
+                <div class="row">
+                    <div class="col mt-2 d-flex justify-content-between">
+                        <div>
+                            <svg width="150" height="50">
+                                <use xlink:href="sprite.svg#logo"></use>
+                            </svg>
+                        </div>
+                        <div class="d-flex ms-4 flex-lg-row flex-column">
+                            <div class="d-none align-items-center me-4 d-sm-flex">
+                                <span class="material-icons-outlined fs-3 me-2"> call </span>
+                                <a href="tel:+79025180185" class="fw-2 fs-3 text-decoration-none text-white">89025180185</a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="material-icons-outlined fs-3 me-2"> schedule </span>
+                                <p class="m-0 fs-4 d-none d-md-inline-block">Круглосуточно</p><p class="d-md-none d-sm-inline-block m-0">24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center h-100 py-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="text-lg-start text-sm-center d-flex justify-content-center flex-column">
+                                <h1 class="">Химчистка мебели в Самаре с выездом на дом. Гарантия результата!</h1>
+                                <p class="fs-3">Удаление пятен и неприятных запахов!</p>
+                                <div class="d-flex align-items-center me-4 mb-4">
+                                    <span class="material-icons-outlined fs-1 me-2"> call </span>
+                                    <a href="tel:+79025180185" class="fw-2 fs-1 text-white">89025180185</a>
+                                </div>
+                                <a href="#form" class="btn btn-primary text-white fs-3 px-4 py-3 rounded-0">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="">
+                                <picture>
+                                    <source type="image/webp" srcset="img/divan.webp" />
+                                    <img class="" width="100%" src="img/divan.png" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h1 class="text-primary fw-bold text-center my-5">НАШИ ПРЕИМУЩЕСТВА</h1>
+            <div class="row flex-wrap">
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="p-3">
+                        <div class="mx-auto mb-4 rounded-circle overflow-hidden box-image correcter-size">
+                            <picture>
+                                <source type="image/avif" srcset="img/vaccumCleaner.avif" />
+                                <source type="image/webp" srcset="img/vaccumCleaner.webp" />
+                                <img class="box-image__image" src="img/vaccumCleaner.png" alt="" />
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="p-3">
+                        <div class="mx-auto mb-4 rounded-circle overflow-hidden box-image correcter-size">
+                            <picture>
+                                <source
+                                    type="image/avif"
+                                    srcset="img/happy-successful-agent-and-satisfied-customer-showing-thumb-up-while-sitting-at-table-and-using-tablet-together_74855-10029.avif"
+                                />
+                                <img
+                                    class="box-image__image"
+                                    src="img/happy-successful-agent-and-satisfied-customer-showing-thumb-up-while-sitting-at-table-and-using-tablet-together_74855-10029.webp"
+                                    alt=""
+                                />
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="p-3">
+                        <div class="mx-auto mb-4 rounded-circle overflow-hidden box-image correcter-size">
+                            <picture>
+                                <source type="image/avif" srcset="img/276c39e2d270e2aea83dfc3a696d0c1f.avif" />
+                                <source type="image/webp" srcset="img/276c39e2d270e2aea83dfc3a696d0c1f.webp" />
+                                <img class="box-image__image" src="img/276c39e2d270e2aea83dfc3a696d0c1f.jpg" alt="" />
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="p-3">
+                        <div class="mx-auto mb-4 rounded-circle overflow-hidden box-image correcter-size">
+                            <picture>
+                                <source type="image/avif" srcset="img/images.avif" />
+                                <source type="image/webp" srcset="img/images.webp" />
+                                <img class="box-image__image" src="img/images.jpg" alt="" />
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-second py-3">
+            <div class="container container-fluid">
+                <h1 class="text-primary fw-bold mt-3">НАШИ ЦЕНЫ</h1>
+                <p class="mb-4">Действует постоянная система скидок! При заказе от 3000 рублей получите скижку в размере 15%!</p>
+                <div class="row flex-wrap">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 bg-block-bg rounded-2 mb-4">
+                            <div class="inner-image-price d-flex justify-content-center align-items-center">
+                                <picture>
+                                    <source type="image/webp" srcset="img/divan-price.webp" />
+                                    <img height="200" src="img/divan-price.png" alt="" />
+                                </picture>
+                            </div>
+                            <div class="d-flex justify-content-between flex-sm-row flex-column">
+                                <div>
+                                    <h5 class="fw-bold">ДИВАНЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                </div>
+                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 bg-block-bg rounded-2 mb-4">
+                            <div class="inner-image-price d-flex justify-content-center align-items-center">
+                                <picture>
+                                    <source type="image/webp" srcset="img/kover.webp" />
+                                    <img class="w-100" src="img/kover.png" alt="" />
+                                </picture>
+                            </div>
+                            <div class="d-flex justify-content-between flex-sm-row flex-column">
+                                <div>
+                                    <h5 class="fw-bold">ДИВАНЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                </div>
+                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 bg-block-bg rounded-2 mb-4">
+                            <div class="inner-image-price d-flex justify-content-center align-items-center">
+                                <picture>
+                                    <source type="image/webp" srcset="img/matras.webp" />
+                                    <img height="200" src="img/matras.png" alt="" />
+                                </picture>
+                            </div>
+                            <div class="d-flex justify-content-between flex-sm-row flex-column">
+                                <div>
+                                    <h5 class="fw-bold">ДИВАНЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                </div>
+                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 bg-block-bg rounded-2 mb-4">
+                            <div class="inner-image-price d-flex justify-content-center align-items-center">
+                                <picture>
+                                    <source type="image/webp" srcset="img/armchair-price.webp" />
+                                    <img height="200" src="img/armchair-price.png" alt="" />
+                                </picture>
+                            </div>
+                            <div class="d-flex justify-content-between flex-sm-row flex-column mt-1">
+                                <div>
+                                    <h5 class="fw-bold">ДИВАНЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                </div>
+                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h1 class="text-primary fw-bold mt-5">ПРИМЕРЫ РАБОТ</h1>
+            <p class="mb-4">
+                Своевременная химчистка мебели сокращает количество пыли находящейся в домашнем воздухе, что позволит надолго сохранить <span>здоровье</span> и всю <span>полноту дыхания!</span>
+            </p>
+            <div class="galery-grid mb-5">
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/1.avif" />
+                        <source type="image/webp" srcset="img/1.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/1.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/3.avif" />
+                        <source type="image/webp" srcset="img/3.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/3.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/4.avif" />
+                        <source type="image/webp" srcset="img/4.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/4.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/06.avif" />
+                        <source type="image/webp" srcset="img/06.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/06.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/07.avif" />
+                        <source type="image/webp" srcset="img/07.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/07.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/08.avif" />
+                        <source type="image/webp" srcset="img/08.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/08.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/10.avif" />
+                        <source type="image/webp" srcset="img/10.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/10.png" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/11.avif" />
+                        <source type="image/webp" srcset="img/11.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/11.png" alt="" />
+                    </picture>
+                </div>
+                <div class="galery-grid__item box-image">
+                    <picture>
+                        <source type="image/avif" srcset="img/12.avif" />
+                        <source type="image/webp" srcset="img/12.webp" />
+                        <img class="galery-grid__image box-image__image" src="img/12.jpg" alt="" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="container-bg">
+            <picture>
+                <source type="image/avif" srcset="img/second-form-bg.avif" />
+                <source type="image/webp" srcset="img/second-form-bg.webp" />
+                <img class="bg-image" src="img/second-form-bg.jpg" alt="" />
+            </picture>
+            <div class="container text-white py-3" style="position: relative; z-index: 300">
+                <h2>МЫ ВСЕГДА НА СВЯЗИ!</h2>
+                <p>ЗАПОЛНИТЕ И ОТПРАВЬТЕ ФОРМУ, И ПОЛУЧИТЕ СКИДКУ В РАЗМЕРЕ 15% ПРОЦЕНТОВ НА ХИМЧИСТКУ</p>
+                <form class="row p-3 form">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <span>Имя</span>
+                                    <input class="d-block w-100 py-2 px-3 fs-5 bg-light bg-opacity-25 border-0 outline-0 text-white" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <div>
+                                    <span>Телефон</span>
+                                    <input class="d-block w-100 py-2 px-3 fs-5 bg-light bg-opacity-25 border-0 outline-0 text-white" type="tel" />
+                                    <span>Неверный формат телефона</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex mt-3">
+                                    <p class="m-0 me-2">Так же вы можете прикрепить фотографии мебели к письму, нажав сюда</p>
+                                    <div class="btn btn-light align-self-baseline text-white">Прикрепить</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-sm-4">
+                        <p>Также вы можете связаться с нами через мессенджеры. Нажав на иконку удобного для вас мессендера, вы попадете с нами в чат!</p>
+                        <div class="d-flex">
+                            <a class="me-3" href="#"
+                                ><svg width="50px" height="50px">
+                                    <use xlink:href="sprite.svg#viber"></use></svg
+                            ></a>
+                            <a class="mr-2" href="#"
+                                ><svg width="50px" height="50px">
+                                    <use xlink:href="sprite.svg#whatsapp"></use></svg
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3"><input type="submit" value="Отправить" class="btn btn-primary btn-lg rounded-0 text-white" /></div>
+                </form>
+            </div>
+        </section>
+        <section class="bg-second py-3">
+            <div class="container">
+                <h1 class="text-primary fw-bold text-center my-5">ОТВЕТЫ НА ЧАСТЫЕ ВОПРОСЫ</h1>
+                <div class="row flex-wrap">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 d-md-flex">
+                            <div class="me-3 mt-2 mb-3">
+                                <svg width="40" height="40">
+                                    <use xlink:href="sprite.svg#question"></use>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-4 mb-2">Лучшее современное оборудования</p>
+                                <p class="fs-5">В среднем мебель сохнет за 6-12 часов, это зависит от материала, степени загрязненности, температуры воздуха и его циркуляции в помещении.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 d-md-flex">
+                            <div class="me-3 mt-2 mb-3">
+                                <svg width="40" height="40">
+                                    <use xlink:href="sprite.svg#question"></use>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-4 mb-2">Лучшее современное оборудования</p>
+                                <p class="fs-5">В среднем мебель сохнет за 6-12 часов, это зависит от материала, степени загрязненности, температуры воздуха и его циркуляции в помещении.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 d-md-flex">
+                            <div class="me-3 mt-2 mb-3">
+                                <svg width="40" height="40">
+                                    <use xlink:href="sprite.svg#question"></use>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-4 mb-2">Лучшее современное оборудования</p>
+                                <p class="fs-5">В среднем мебель сохнет за 6-12 часов, это зависит от материала, степени загрязненности, температуры воздуха и его циркуляции в помещении.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="p-3 d-md-flex">
+                            <div class="me-3 mt-2 mb-3">
+                                <svg width="40" height="40">
+                                    <use xlink:href="sprite.svg#question"></use>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-4 mb-2">Лучшее современное оборудования</p>
+                                <p class="fs-5">В среднем мебель сохнет за 6-12 часов, это зависит от материала, степени загрязненности, температуры воздуха и его циркуляции в помещении.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h1 class="text-primary fw-bold text-center my-5">ОТЗЫВЫ ПОСТОЯННЫХ КЛИЕНТОВ</h1>
+            <div class="row">
+                <div class="col-12 mb-3 p-3 bg-block-bg rounded-3">
+                    <p class="mb-2">ИВАН НИКОЛАЕВИЧ</p>
+                    <p class="m-0">Периодически вызываем компанию почистить мебель - диван и кресла. Цены устраивают - дешевле не нашли. А в качестве уже убедились не раз! Спасибо за работу!</p>
+                </div>
+                <div class="col-12 mb-3 p-3 bg-block-bg rounded-3">
+                    <p class="mb-2">ИВАН НИКОЛАЕВИЧ</p>
+                    <p class="m-0">Периодически вызываем компанию почистить мебель - диван и кресла. Цены устраивают - дешевле не нашли. А в качестве уже убедились не раз! Спасибо за работу!</p>
+                </div>
+                <div class="col-12 mb-3 p-3 bg-block-bg rounded-3">
+                    <p class="mb-2">ИВАН НИКОЛАЕВИЧ</p>
+                    <p class="m-0">Периодически вызываем компанию почистить мебель - диван и кресла. Цены устраивают - дешевле не нашли. А в качестве уже убедились не раз! Спасибо за работу!</p>
+                </div>
+                <div class="col-12 mb-3 p-3 bg-block-bg rounded-3">
+                    <p class="mb-2">ИВАН НИКОЛАЕВИЧ</p>
+                    <p class="m-0">Периодически вызываем компанию почистить мебель - диван и кресла. Цены устраивают - дешевле не нашли. А в качестве уже убедились не раз! Спасибо за работу!</p>
+                </div>
+            </div>
+        </section>
+        <section class="container-bg">
+            <picture>
+                <source type="image/avif" srcset="img/09.avif" />
+                <source type="image/webp" srcset="img/09.webp" />
+                <img class="bg-image" src="img/09.jpg" alt="" />
+            </picture>
+            <div class="container text-white py-3" style="position: relative; z-index: 300">
+                <h2>МЫ ВСЕГДА НА СВЯЗИ!</h2>
+                <p>ЗАПОЛНИТЕ И ОТПРАВЬТЕ ФОРМУ, И ПОЛУЧИТЕ СКИДКУ В РАЗМЕРЕ 15% ПРОЦЕНТОВ НА ХИМЧИСТКУ</p>
+                <form id="form" class="row p-3 form">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <p class="fw-bold fs-4">Состояние мебели:</p>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fw-bold fs-4">Состояние мебели:</p>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                                <label class="d-flex mb-2 align-items-center">
+                                    <input type="checkbox" class="d-block rounded-circle me-2" />
+                                    <span>Сильные загрязнения</span>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <span>Имя</span>
+                                    <input class="d-block w-100 py-2 px-3 fs-5 bg-light bg-opacity-25 border-0 outline-0 text-white" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-4 mt-md-0">
+                                <div>
+                                    <span>Телефон</span>
+                                    <input class="d-block w-100 py-2 px-3 fs-5 bg-light bg-opacity-25 border-0 outline-0 text-white" type="tel" />
+                                    <span>Неверный формат телефона</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex mt-3">
+                                <p class="m-0 me-2">Так же вы можете прикрепить фотографии мебели к письму, нажав сюда</p>
+                                <label class="btn btn-light align-self-baseline text-white"><input class="d-none input-file" accept="image/*" multiple type="file" />Прикрепить</label>
+                            </div>
+                            <div class="output-container my-3">
+                                <!-- Here output uploaded images -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-sm-4">
+                        <p>Также вы можете связаться с нами через мессенджеры. Нажав на иконку удобного для вас мессендера, вы попадете с нами в чат!</p>
+                        <div class="d-flex">
+                            <a class="me-3" href="#"
+                                ><svg width="50px" height="50px">
+                                    <use xlink:href="sprite.svg#viber"></use></svg
+                            ></a>
+                            <a href="#"
+                                ><svg width="50px" height="50px">
+                                    <use xlink:href="sprite.svg#whatsapp"></use></svg
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3"><input type="submit" value="Отправить" class="btn btn-primary btn-lg text-white rounded-0" /></div>
+                </form>
+            </div>
+        </section>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
