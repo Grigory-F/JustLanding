@@ -30,28 +30,156 @@
         <title></title>
     </head>
     <body class="page">
-         <div class="modal" tabindex="-1" id="exampleModal">
-            <div class="modal-dialog modal-dialog-centered modal-xl">
-                <form class="modal-content">
+        <div class="modal" tabindex="-1" id="divanModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
                     <div class="modal-header">
-                        <p class="m-0 fs-3">Оставьте свои контакты для связи с нами и мы свяжемся с вами в ближайшее время</p>
+                        <p class="mb-0 me-2 fs-3">Диваны</p>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <div>
-                            <label> Имя
-                                <input class="d-block" type="text" placeholder="Имя">
-                            </label>
-                            <label> Телефон
-                                <input class="d-block" type="text" placeholder="Телефон">
-                            </label>
-                            <p class="text-muted">*Ваши данные не будут переданы третьим лицам</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Вид дивана:</th>
+                                        <th scope="col">Цена от:</th>
+                                        <th scope="col">Примерное время чистки:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Прямой диван</td>
+                                        <td>1500 руб.</td>
+                                        <td colspan="2">1 час.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Угловой диван</td>
+                                        <td>2200 руб.</td>
+                                        <td>1.5 час.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кухонный уголок</td>
+                                        <td>1200 руб.</td>
+                                        <td>1 час.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <div class="modal-footer justify-content-center">
-                        <button type="button" class="btn btn-primary btn-lg text-white">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="koverModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="mb-0 me-2 fs-3">Ковры</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </form>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Вид ковра:</th>
+                                        <th scope="col">Цена за кв/м</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>До 1 см.</td>
+                                        <td>150 руб</td>
+                                    </tr>
+                                    <tr>
+                                        <td>До 2 см.</td>
+                                        <td>170 руб</td>
+                                    </tr>
+                                    <tr>
+                                        <td>От 2.5 см.</td>
+                                        <td>190 руб</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="matrasModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="mb-0 me-2 fs-3">Матрасы</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Вид матраса:</th>
+                                        <th scope="col">Цена от:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Детский одноместный</td>
+                                        <td>900 руб.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Односпальный Евро</td>
+                                        <td>1200 руб.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двуспальный Евро</td>
+                                        <td>1600 руб.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="kreslaModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="mb-0 me-2 fs-3">Матрасы</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Вид мебели:</th>
+                                        <th scope="col">Цена от:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Стул со спинкой</td>
+                                        <td>200 руб.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Стул компьютерный</td>
+                                        <td>300 руб.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Пуфик</td>
+                                        <td>500 руб.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кресло</td>
+                                        <td>900 руб.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <section class="container-bg first-screen">
@@ -75,15 +203,16 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <span class="material-icons-outlined fs-3 me-2"> schedule </span>
-                                <p class="m-0 fs-4 d-none d-md-inline-block">Круглосуточно</p><p class="d-md-none d-sm-inline-block m-0">24/7</p>
+                                <p class="m-0 fs-4 d-none d-md-inline-block">Круглосуточно</p>
+                                <p class="d-md-none d-sm-inline-block m-0">24/7</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex align-items-center h-100 py-4">
+                <div class="d-flex align-items-center py-4" style="min-height: 700px">
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
-                            <div class="text-lg-start text-sm-center d-flex justify-content-center flex-column">
+                            <div class="d-flex justify-content-center flex-column">
                                 <h1 class="">Химчистка мебели в Самаре с выездом на дом. Гарантия результата!</h1>
                                 <p class="fs-3">Удаление пятен и неприятных запахов!</p>
                                 <div class="d-flex align-items-center me-4 mb-4">
@@ -154,7 +283,7 @@
                             </picture>
                         </div>
                         <div>
-                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fw-bold fs-3 m-0">Современные химические средства</p>
                             <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
                         </div>
                     </div>
@@ -169,7 +298,7 @@
                             </picture>
                         </div>
                         <div>
-                            <p class="fw-bold fs-3 m-0">Лучшее современное оборудования</p>
+                            <p class="fw-bold fs-3 m-0">Много выполненных работ</p>
                             <p class="fs-4">Оборудование европейских стандартов обеспечит качественную химчистку.</p>
                         </div>
                     </div>
@@ -192,10 +321,10 @@
                             <div class="d-flex justify-content-between flex-sm-row flex-column">
                                 <div>
                                     <h5 class="fw-bold">ДИВАНЫ</h5>
-                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">1200</span> руб</p>
                                     <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
                                 </div>
-                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                                <div data-bs-toggle="modal" href="#divanModal" class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
                             </div>
                         </div>
                     </div>
@@ -209,11 +338,11 @@
                             </div>
                             <div class="d-flex justify-content-between flex-sm-row flex-column">
                                 <div>
-                                    <h5 class="fw-bold">ДИВАНЫ</h5>
-                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
-                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                    <h5 class="fw-bold">КОВРЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">700</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">0.5</span> часа</p>
                                 </div>
-                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                                <div data-bs-toggle="modal" href="#koverModal" class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
                             </div>
                         </div>
                     </div>
@@ -227,11 +356,11 @@
                             </div>
                             <div class="d-flex justify-content-between flex-sm-row flex-column">
                                 <div>
-                                    <h5 class="fw-bold">ДИВАНЫ</h5>
-                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
+                                    <h5 class="fw-bold">МАТРАСЫ</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">900</span> руб</p>
                                     <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
                                 </div>
-                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                                <div data-bs-toggle="modal" href="#matrasModal" class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
                             </div>
                         </div>
                     </div>
@@ -243,13 +372,13 @@
                                     <img height="200" src="img/armchair-price.png" alt="" />
                                 </picture>
                             </div>
-                            <div class="d-flex justify-content-between flex-sm-row flex-column mt-1">
+                            <div class="d-flex justify-content-between flex-sm-row flex-column">
                                 <div>
-                                    <h5 class="fw-bold">ДИВАНЫ</h5>
-                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">600</span> руб</p>
-                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">1</span> часа</p>
+                                    <h5 class="fw-bold">Кресла и стулья</h5>
+                                    <p class="fs-5 m-0">Цена: от <span class="fw-bold">200</span> руб</p>
+                                    <p class="fs-5 m-0">Время чистки: от <span class="fw-bold">0.5</span> часа</p>
                                 </div>
-                                <div class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
+                                <div data-bs-toggle="modal" href="#kreslaModal" class="btn mt-3 mt-sm-0 btn-primary align-self-baseline text-nowrap text-white">Узнать цены</div>
                             </div>
                         </div>
                     </div>
@@ -542,6 +671,19 @@
                 </form>
             </div>
         </section>
+        <footer class="py-4 bg-darkening">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-3">JustCleaning</p>
+                    </div>
+                    <div class="col">
+                        <p class="m-0">Телефон</p>
+                        <a class="fs-3" href="tel:89025181085">89025181085</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="bootstrap.bundle.min.js"></script>
         <script src="index.js"></script>
     </body>
